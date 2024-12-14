@@ -1,0 +1,21 @@
+.container {
+    display: flex; /* equivalent to 'flex' */
+    flex-direction: row;
+     /* equivalent to 'flex-row' */
+     align-items: center;
+    justify-content: space-evenly; 
+    /* equivalent to 'gap-4' (16px) */
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    margin-top: 0;
+    width:100vw;
+    height:50px;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.linkshome{
+    text-decoration: solid;
+}

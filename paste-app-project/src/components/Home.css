@@ -1,0 +1,37 @@
+/* .my-element is the custom class for this styling */
+.my-element {
+    padding: 0.5rem; /* equivalent to 'p-2' */
+    border-radius: 5rem;
+    margin-top: 0.5rem ;/* equivalent to 'rounded-2xl' */
+  }
+#btn{
+  background-color: rgb(49, 49, 239);
+  color:white;
+  font-weight: 200;
+  }
+.container1{
+    display:flex;
+    gap:22px;
+    padding:3px;
+    padding-left: 270px;
+
+}
+#textarea{
+    border-radius: 1rem; /* equivalent to 'rounded-2xl' */
+  margin-top: 1px; /* equivalent to 'mt-4' */
+  min-width: 500px; /* equivalent to 'min-w-[500px]' */
+  padding: 1rem; /* equivalent to 'p-4' */
+  overflow: hidden;
+  height:80vh;
+  width:65%
+}
+#inputbox{
+  width:65%
+}
+.textareacontainer{
+  width:100vw;
+  height:90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
